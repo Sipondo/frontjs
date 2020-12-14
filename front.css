@@ -1,0 +1,240 @@
+.ext-app-holder {
+  flex-grow: 1;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  margin-bottom: 20px;
+  order: 10;
+}
+
+.ext-app-customer-table {
+  flex: none;
+  width: inherit;
+  overflow-x: hidden;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.ext-app-order-table {
+  display: flex;
+  flex-direction: column;
+  width: inherit;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  height: 100%;
+}
+
+.ext-app-order-table p {
+  margin: 5px 0px;
+}
+
+.ext-app-order-table.collapseCard--collapseCard__card {
+  padding: 8px;
+}
+
+.ext-app-order-table-table {
+  margin: 0px;
+}
+
+.ext-app-order-table-table td {
+  vertical-align: middle;
+}
+
+.ext-app-tracking-p {
+  font-size: 1.0rem;
+}
+
+.ext-app-tracking-cell {
+  padding: 0;
+  border-top: 0px;
+}
+
+.ext-app-veri-parent {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif
+}
+
+.ext-app-veri-order {
+  height: 30%;
+  width: 25%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.fa-stack {
+  font-size: 0.5em;
+  z-index: 1;
+}
+
+i {
+  vertical-align: middle;
+}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #e0e0e0;
+  background-color: #fafafa;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 2px 10px;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #c3c3f3;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  /*padding: 0px 0px;*/
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+.highlight_current {
+  background-color: #FFFFF0;
+  color: black;
+}
+
+.highlight {
+  background-color: #F0F0FF;
+  color: black;
+}
+
+table tr td {
+  height: 30px;
+  padding: 0 0px;
+  line-height: 30px;
+}
+
+.horizontal-line {
+  height: 10px;
+  z-index: 1001;
+  background-color: gray;
+  line-height: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 5px;
+}
+
+.vertical-line {
+  width: 10px;
+  height: 100%;
+  z-index: 0;
+  line-width: 20px;
+  display: inline-block;
+  horizontal-align: middle;
+  /* border-radius: 5px; */
+}
+
+.vertical-line-end {
+  width: 10px;
+  height: 100%;
+  z-index: 0;
+  line-width: 20px;
+  display: inline-block;
+  horizontal-align: middle;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.width-5 {
+  width: 5px;
+}
+
+.width-30 {
+  width: 30px;
+}
+
+td, td>div {
+  height: 100%;
+  position: relative;
+  line-height: 30px;
+}
+
+tr:nth-child(even) {
+  background-color: #f0f0f0;
+}
+
+tr:nth-child(odd) {
+  background-color: #fafafa;
+}
+
+.bodyrow {
+  text-align: center;
+  vertical-align: middle;
+  color: white;
+}
+
+.trackingicon {
+  text-align: center;
+  vertical-align: middle;
+  background-color: white;
+  padding: 0;
+  height: 1px;
+  min-height: 1px;
+  border-top: 0px;
+}
+
+.trackinginnericon {
+  position: absolute;
+  top: 0%;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: inline-table;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.trackingfirstcell {
+  padding: 0;
+  text-align: center;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  border-top: 0px;
+}
+
+.fa-beat {
+  animation: fa-beat 1.5s ease-in-out infinite;
+  -webkit-animation-timing-function: ease-in-out;
+}
+
+@keyframes fa-beat {
+  0% {
+    transform: rotate(-30deg);
+  }
+
+  50% {
+    transform: rotate(-60deg);
+  }
+
+  100% {
+    transform: rotate(-30deg);
+  }
+}
