@@ -11,7 +11,7 @@
 
 .ext-app-customer-table {
   flex: none;
-  width: inherit;
+  width: 100%;
   overflow-x: hidden;
   border-radius: 10px;
   margin-bottom: 20px;
@@ -20,7 +20,7 @@
 .ext-app-order-table {
   display: flex;
   flex-direction: column;
-  width: inherit;
+  width: 100%;
   overflow-x: hidden;
   overflow-y: hidden;
   height: 100%;
