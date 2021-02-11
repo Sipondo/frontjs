@@ -30,6 +30,19 @@
   margin: 5px 0px;
 }
 
+.ext-app-return-table {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  height: 100%;
+}
+
+.ext-app-return-table p {
+  margin: 5px 0px;
+}
+
 .ext-app-order-table.collapseCard--collapseCard__card {
   padding: 8px;
 }
