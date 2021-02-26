@@ -241,14 +241,14 @@ tr:nth-child(odd) {
 
 @keyframes fa-beat {
   0% {
-    transform: rotate(-30deg);
+    transform: rotate(15deg);
   }
 
   50% {
-    transform: rotate(-60deg);
+    transform: rotate(-15deg);
   }
 
   100% {
-    transform: rotate(-30deg);
+    transform: rotate(15deg);
   }
 }
